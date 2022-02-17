@@ -1,5 +1,7 @@
 class BonusService {
-    public int calculate(boolean registered, int amount) {
+    public int calculate(int cost) {
+        int miles = cost / 20;
+        return miles;
 
     }
 }
